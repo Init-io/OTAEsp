@@ -1,0 +1,10 @@
+OTAEsp           KEYWORD1
+start            KEYWORD2
+end              KEYWORD2
+host             KEYWORD2
+get              KEYWORD2
+connect          KEYWORD2
+server           OBJECT
+WiFi             OBJECT
+IPAddress        OBJECT
+ESP8266WebServer OBJECT
