@@ -1,0 +1,19 @@
+{
+  "name": "OTAEsp",
+  "version": "1.0.0",
+  "author": "Siam Rayhan",
+  "maintainer": "Siam Rayhan <developers.init.io@gmail.com>",
+  "sentence": "A simple library for the ESP8266 to set up an access point, serve HTML pages, and connect to Wi-Fi.",
+  "paragraph": "This library allows the ESP8266 to create an access point (AP), host an HTML page, retrieve form data, and connect to a Wi-Fi network. Ideal for Over-the-Air (OTA) updates and simple web-based device configuration.",
+  "category": "Communication",
+  "url": "https://github.com/Init-io/OTAEsp",
+  "architectures": "esp8266",
+  "dependencies": [],
+  "includes": "src",
+  "keywords": ["ESP8266", "OTA", "Wi-Fi", "Web Server"],
+  "contributor": "Siam Rayhan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Init-io/OTAEsp.git"
+  }
+}
