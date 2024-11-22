@@ -12,6 +12,7 @@ public:
     void host(const String &html);
     String get(const String &fieldName);
     bool connect(const char *ssid, const char *password);
+    bool isConnected();  // New method to check Wi-Fi connection status
 
     ESP8266WebServer server; // Expose the server to allow debugging in `loop`
 };
