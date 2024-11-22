@@ -4,6 +4,7 @@ end              KEYWORD2
 host             KEYWORD2
 get              KEYWORD2
 connect          KEYWORD2
+isConnected      KEYWORD2
 server           OBJECT
 WiFi             OBJECT
 IPAddress        OBJECT
