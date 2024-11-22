@@ -56,6 +56,13 @@ if (ota.connect("yourSSID", "yourPassword")) {
 ```
 
 ### 5. Stop the Access Point
+If you want to check if the wifi is connected, use the `isConnected()` method.
+
+```cpp
+ota.isConnected();
+```
+
+### 6. Stop the Access Point
 If you want to stop the AP mode, use the `end()` method.
 
 ```cpp
