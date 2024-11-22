@@ -79,3 +79,14 @@ bool OTAEsp::connect(const char *ssid, const char *password) {
         return false;
     }
 }
+
+// Check if the ESP is connected to a Wi-Fi network
+bool OTAEsp::isConnected() {
+    if (WiFi.status() == WL_CONNECTED) {
+        Serial.println("[OTAEsp] ESP is connected to Wi-Fi.");
+        return true;
+    } else {
+        Serial.println("[OTAEsp] ESP is NOT connected to Wi-Fi.");
+        return false;
+    }
+}
