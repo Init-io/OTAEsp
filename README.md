@@ -1,4 +1,7 @@
 # OTAEsp - ESP8266 OTA Library
+[![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://docs.arduino.cc/libraries/otaesp/?_gl=1*yizibl*_up*MQ..*_ga*OTc3MDE5NDYxLjE3Mzg2OTIzNDg.*_ga_NEXN8H46L5*MTczODY5MjM0Ni4xLjEuMTczODY5MjUxOS4wLjAuNDU4ODMyODky)
+![GitHub Release](https://img.shields.io/github/v/release/init-io/OTAEsp?label=release)
+[![License](https://img.shields.io/github/license/init-io/OTAEsp)](LICENSE)
 
 **OTAEsp** is a simple library for the ESP8266 platform that allows you to easily set up an access point (AP) to serve an HTML page, retrieve form data, and connect the device to a Wi-Fi network. It is ideal for implementing Over-the-Air (OTA) updates, web interfaces, or simple device configuration over a network.
 
